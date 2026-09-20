@@ -13,6 +13,7 @@ brew "tmux"
 brew "llvm"
 brew "gradle"
 brew "maven"
+brew "openjdk@21"
 
 # Databases & Cloud Tools
 brew "postgresql@15"
