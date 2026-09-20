@@ -1,0 +1,51 @@
+# Taps
+tap "heroku/brew"
+tap "homebrew/services"
+
+# CLI Core & Version Control
+brew "git"
+brew "gh"
+brew "lazygit"
+brew "neovim"
+brew "tmux"
+
+# Build Systems & Compilers
+brew "llvm"
+brew "gradle"
+brew "maven"
+
+# Databases & Cloud Tools
+brew "postgresql@15"
+
+# GUI Applications & Utilities
+cask "basictex"
+cask "codex"
+cask "db-browser-for-sqlite"
+cask "docker-desktop"
+
+# VS Code Extensions (Utilities & Cheatsheets)
+vscode "andenetalexander.vim-cheatsheet"
+vscode "eamodio.gitlens"
+vscode "formulahendry.code-runner"
+vscode "vscodevim.vim"
+vscode "vintharas.learn-vim"
+
+# VS Code Language Packs & Core Extensions
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-dotnettools.csdevkit"
+vscode "vscjava.vscode-java-pack"
+vscode "redhat.java"
+
+# Remote Development
+vscode "ms-vscode-remote.remote-ssh"
+
+# VS Code Workflow Tools
+vscode "ritwickdey.liveserver"
+vscode "tomoki1207.pdf"
+vscode "mechatroner.rainbow-csv"
+vscode "dotjoshjohnson.xml"
+
+# Active Theme
+vscode "tal7aouy.theme"
