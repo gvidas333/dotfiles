@@ -1,0 +1,48 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "code-runner.runInTerminal": true,
+    "git.autoRepositoryDetection": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "c": true,
+        "haskell": true,
+        "java": false
+    },
+    "git.autofetch": true,
+    "haskell.manageHLS": "GHCup",
+    "editor.minimap.enabled": false,
+    "git.rebaseWhenSync": true,
+    "cmake.configureOnOpen": true,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.inheritEnv": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[xslt]": {
+        "editor.semanticHighlighting.enabled": true
+    },
+    "workbench.colorTheme": "Theme Mix",
+    "code-runner.executorMap": {
+        "csharp": "dotnet run"
+},
+"liveServer.settings.donotVerifyTags": true,
+"github.copilot.nextEditSuggestions.enabled": false,
+"mdb.mcp.server": "prompt",
+"chat.viewSessions.orientation": "stacked",
+"workbench.activityBar.location": "bottom",
+"python.analysis.typeCheckingMode": "standard",
+"latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+"editor.wordWrap": "on",
+"github.copilot.nextEditSuggestions.eagerness": "low",
+"vim.leader": "<space>",
+"vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["<leader>", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
+    { "before": ["<leader>", "r"], "commands": ["editor.action.rename"] }
+    ]
+}
